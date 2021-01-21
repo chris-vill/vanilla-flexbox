@@ -10,11 +10,6 @@ body {
   min-height: 100%;
 }
 
-header {
-  background-color: red;
-  height: 50px;
-}
-
 footer {
   background-color: pink;
   height: 30px;

@@ -1,0 +1,35 @@
+header {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  padding-left: 7px;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 16px;
+}
+
+#menu-btn {
+  height: 38px;
+  width: 38px;
+  margin: 0px 16px 0px 16px;
+}
+
+#search-bar {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#search-bar img {
+  height: 18px;
+  width: 18px;
+  left: 6px;
+  position: absolute;
+}
+
+#search-bar input{
+  height: 24px;
+  padding-left: 24px;
+}
