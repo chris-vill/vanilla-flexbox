@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 html,
 body {
   height: 100%;
@@ -20,14 +24,6 @@ main {
   flex-grow: 1;
 }
 
-section {
-  background-color: orange;
-  flex-grow: 1;
-}
-
-aside {
-  background-color: green;
-  position: sticky;
-  top: 50px;
-  width: 100px;
+button {
+  cursor: pointer;
 }

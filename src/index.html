@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/aside.css">
   </head>
   <body>
     <header>
@@ -17,7 +18,16 @@
     </header>
     <main>
       <aside>
-        This is aside
+        <button id="create-btn" type="button">
+          <img src="img/plus.png" alt="create-button">
+          <span>Create</span>
+        </button>
+        <section id="selected-items">
+          <h2>Selected Items (0)</h2>
+          <button id="start-btn" type="button">Start</button>
+          <button id="stop-btn" type="button">Stop</button>
+          <button id="done-btn" type="button">Done</button>
+        </section>
       </aside>
       <section>
         This is main
