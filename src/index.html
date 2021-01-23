@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/aside.css">
+    <link rel="stylesheet" href="./styles/task-list.css">
   </head>
   <body>
+
+    <!-- Header -->
     <header>
       <img id="menu-btn" src="img/bars.png" alt="menu icon">
       <h1>My ToDo</h1>
@@ -16,7 +19,10 @@
         <input type="text">
       </div>
     </header>
+
     <main>
+
+      <!-- Aside -->
       <aside>
         <button id="create-btn" type="button">
           <img src="img/plus.png" alt="create-button">
@@ -29,11 +35,40 @@
           <button id="done-btn" type="button">Done</button>
         </section>
       </aside>
-      <section>
-        This is main
+
+      <!-- Main Section -->
+      <section id="task-list">
+        <!--
+          <article id="in-progress">
+            <h3>In Progress</h3>
+            <ul>
+              <li>
+                <input type="checkbox">
+                <span>Task</span>
+              </li>
+            </ul>
+          </article>
+         -->
+
+        <article id="in-progress">
+          <h3>In Progress</h3>
+          <ul></ul>
+        </article>
+
+        <article id="backlog">
+          <h3>Backlog</h3>
+          <ul></ul>
+        </article>
+
+        <article id="archived">
+          <h3>Archived</h3>
+          <ul></ul>
+        </article>
       </section>
     </div>
     </main>
+
+    <!-- Footer -->
     <footer>
       This is footer
     </footer>
