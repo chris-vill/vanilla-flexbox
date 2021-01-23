@@ -1,14 +1,16 @@
 aside {
-  align-items: center;
+  align-items: stretch;
   border-right: 1px solid black;
   display: flex;
   flex-direction: column;
+  padding: 12px 18px;
   position: sticky;
   top: 50px;
   width: 200px;
 }
 
 aside #create-btn {
+  align-self: center;
   align-items: center;
   display: flex;
   margin: 16px 0px;
@@ -26,8 +28,54 @@ aside #create-btn span {
   width: 100%;
 }
 
-aside #selected-items {
+/* [START] TASK FORM*/
+
+aside #task-form {
+  display: none;
+  flex-direction: column;
+  opacity: 0;
+}
+
+aside #task-form .task-form-field {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  position: relative;
+}
+
+aside #task-form .task-form-field label {
+  background-color: white;
+  color: rgb(80, 80, 80);
+  font-size: 12px;
+  left: 5px;
+  padding: 0px 2px 0px 1px;
+  position: absolute;
+  top: 1px;
+}
+
+aside #task-form .task-form-field .field {
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-bottom: 4px;
   align-self: stretch;
+}
+
+aside #task-form .task-form-field #description {
+  height: 80px;
+}
+
+aside #task-form .button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+/* [END] TASK FORM*/
+
+
+/* [START] SELECTED ITEMS */
+
+aside #selected-items {
   align-items: center;
   border-top: 1px solid black;
   flex-direction: column;
@@ -68,3 +116,5 @@ aside #done-btn {
   border: 1px solid rgb(118, 118, 118);
   border-radius: 3px;
 }
+
+/* [END] SELECTED ITEMS */

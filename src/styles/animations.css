@@ -1,0 +1,11 @@
+aside {
+  transition: width 0.25s ease;
+}
+
+aside #create-btn {
+  transition: opacity 0.25s ease;
+}
+
+aside #task-form {
+  transition: opacity 0.5s ease;
+}

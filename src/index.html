@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/aside.css">
     <link rel="stylesheet" href="./styles/task-list.css">
+    <link rel="stylesheet" href="./styles/animations.css">
   </head>
   <body>
 
@@ -28,6 +29,23 @@
           <img src="img/plus.png" alt="create-button">
           <span>Create</span>
         </button>
+
+        <form id="task-form">
+          <div class="task-form-field">
+            <label for="task-name">Task Name</label>
+            <input id="task-name" class="field" type="text">
+          </div>
+          <!-- rows="8" cols="80" -->
+          <div class="task-form-field">
+            <label for="description">Description</label>
+            <textarea id="description" class="field"></textarea>
+          </div>
+          <div class="button-group">
+            <button id="cancel-btn" type="button">Cancel</button>
+            <button id="submit-btn" type="button">Submit</button>
+          </div>
+        </form>
+
         <section id="selected-items">
           <h2>Selected Items (0)</h2>
           <button id="start-btn" type="button">Start</button>
@@ -70,9 +88,10 @@
 
     <!-- Footer -->
     <footer>
-      This is footer
+      <span>Footer</span>
     </footer>
 
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+    <script type="text/javascript" src="./scripts/create-task.js"></script>
   </body>
 </html>
