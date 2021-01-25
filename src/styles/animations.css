@@ -9,3 +9,11 @@ aside #create-btn {
 aside #task-form {
   transition: opacity 0.5s ease;
 }
+
+#task-list #task-view {
+  transition: width 0.25s ease;
+}
+
+#task-list #task-view * {
+  transition: opacity 0.25s ease;
+}

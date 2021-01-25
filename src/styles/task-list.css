@@ -1,10 +1,47 @@
 #task-list {
   display: flex;
+}
+
+#task-view {
+  border-right: 1px solid black;
+  display: none;
+  flex-direction: column;
+  padding: 20px 26px;
+  width: 0px;
+}
+
+#task-view * {
+  opacity: 0;
+}
+
+#task-view.show * {
+  opacity: 1;
+}
+
+#task-view header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#task-view h4 {
+  margin: 0 0 16px 0;
+}
+
+#task-view .close-task-btn {
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+#tasks-section {
+  display: flex;
   padding: 20px 26px;
 }
 
-#task-list article {
-  margin-right: 32px;
+#task-list .task-list {
+  min-width: 240px;
 }
 
 #task-list h3 {
@@ -14,5 +51,13 @@
 #task-list ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 30px 0 0;
+}
+
+#task-list li {
+  border: 1px solid rgba(70, 70, 70, 0.5);
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 14px;
+  cursor: pointer;
 }

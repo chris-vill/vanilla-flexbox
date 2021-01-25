@@ -1,4 +1,4 @@
-header {
+#main-header {
   align-items: center;
   border-bottom: 1px solid black;
   display: flex;
@@ -6,30 +6,30 @@ header {
   padding-left: 7px;
 }
 
-header h1 {
+#main-header h1 {
   margin-right: 16px;
 }
 
-header #menu-btn {
+#main-header #menu-btn {
   height: 38px;
   width: 38px;
   margin: 0px 16px 0px 16px;
 }
 
-header #search-bar {
+#main-header #search-bar {
   align-items: center;
   display: flex;
   position: relative;
 }
 
-header #search-bar img {
+#main-header #search-bar img {
   height: 18px;
   width: 18px;
   left: 6px;
   position: absolute;
 }
 
-header #search-bar input{
+#main-header #search-bar input{
   height: 24px;
   padding-left: 24px;
   width: 200px;
